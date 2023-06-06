@@ -6,7 +6,7 @@ pipeline {
         stage('git') {
             steps {
                 // Get some code from a GitHub repository
-                git branch: 'main', url: 'https://github.com/SWEDemo/jenkins.git'
+                git branch: 'main', url: 'https://github.com/jjddhh/jenkins-demo.git'
             }
         }        
         stage('mvn') {
